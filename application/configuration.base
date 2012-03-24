@@ -1,0 +1,36 @@
+<?php 
+/*-------------------------------------------- 
+* PROJECT NAME - PROJECT MOTTO
+* BUILT ON SNOBO FRAMEWORK
+* -------------------------------------------- 
+* COPYRIGHT YEAR AUTHOR
+* SNOBO COPYRIGHT 2012 COBE MAKAROV
+* -------------------------------------------- 
+* SNOBO FRAEMWORK RELEASED UNDER THE GNU PUBLIC 
+* LICENSE V3. NONE OF THE DEVELOPERS ARE 
+* AFFILIATED WITH THE SERVER(S) RAN WITH ANY 
+* WEB APPLICATION BUILT UPON SNOBO FRAMEWORK
+* -------------------------------------------- 
+* @author: AUTHOR
+* @framework-author: Cobe Makarov 
+* --------------------------------------------*/
+
+if(!defined('SNOBO')){die('Direct Loading Fobidden');} 
+
+//Define our variable as an array.
+$_snoboConfig = array();
+
+//Database variables
+$_snoboConfig['database']['host'] = $db_host;
+$_snoboConfig['database']['user'] = $db_user;
+$_snoboConfig['database']['password'] = $db_password;
+$_snoboConfig['database']['name'] = $db_name;
+
+//System variables
+$_snoboConfig['system']['name'] = $system_name;
+$_snoboConfig['system']['tagline'] = $system_tagline;
+$_snoboConfig['system']['environment'] = $system_environment;
+$_snoboConfig['system']['secret_quote'] = $system_quote;
+$_snoboConfig['system']['site_path'] = $system_path;
+$_snoboConfig['system']['mobile_override'] = $system_override; 
+?>
